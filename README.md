@@ -1,6 +1,6 @@
 # OpenPage
 
-A simple Python script designed to interact with GitHub profile view counters (specifically the `komarev.com/ghpvc` badge). It simulates browser requests to automatically update or "refresh" the view count on a GitHub profile.
+A simple Python script designed to interact with GitHub profile view counters (specifically the `komarev.com/ghpvc` badge). It simulates browser requests to automatically update or "refresh" the view count badge displayed on GitHub profiles.
 
 ## Features
 - Fetches the GitHub Camo proxied URL for the badge to simulate real views.
@@ -29,5 +29,11 @@ Run the script using Python:
 python refresh.py
 ```
 
+## Example Output
+
+Below is a screenshot showing that the script works:
+
+![OpenPage script in action](Screenshot%202026-05-11%20144807.png)
+
 ## Disclaimer
-This script is created for educational purposes to demonstrate how HTTP headers, caching, and proxies (like GitHub Camo) work. Abusing this to artificially inflate metrics may violate GitHub's Terms of Service. Use responsibly.
+This script is created for educational purposes to demonstrate how HTTP headers, caching, and proxies (like GitHub Camo) work. Abusing this to artificially inflate metrics may violate GitHub's Terms of Service or ethical guidelines.
